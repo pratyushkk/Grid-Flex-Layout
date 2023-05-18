@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+  margin: 30px;
+  height: 100vh;
+}
+.header {
+  width: 100%;
+  height: 80px;
+  background: #3ef8d0;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  margin-top: 30px;
+}
+.aside {
+  width: 25%;
+  height: 500px;
+  background: #39e639;
+  text-align: center;
+}
+
+.article {
+  width: 73%;
+  margin-left: 2%;
+  background: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: #ffcf77;
+  margin-left: 50px;
+}
